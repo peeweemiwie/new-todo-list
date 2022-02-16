@@ -1,0 +1,15 @@
+√ const id = cloned.querySelector('[data-id]');
+√create an array of tasks
+√list contains id, task, complete
+
+√render locally
+
+√copy template
+√add todo
+
+localstrage
+
+func: complete
+func: delete
+
+√

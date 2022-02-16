@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>New ToDo List</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>New Todo List!</h1>
+    <ul data-container-todos></ul>
+    <form action="" data-form-new-todo>
+      <label for="text-input__todo">Task: </label>
+      <input type="text" id="text-input__todo" class="text-input__todo" data-input-new-todo autofocus="true">
+    </form>
+  </div>
+
+  <template id="template">
+    <li class="list-item flex" data-list-item data-id data-completed>
+      <input type="checkbox" name="complete" data-checkbox>
+      <p class="text__todo" data-text-task></p>
+      <button data-delete>Delete</button>
+    </li>
+  </template>
+</body>
+
+</html>
